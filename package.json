@@ -1,0 +1,19 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "Site de Notícias com NodeJS",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isagiongo/portal-noticias-node.git"
+  },
+  "author": "Isa Giongo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isagiongo/portal-noticias-node/issues"
+  },
+  "homepage": "https://github.com/isagiongo/portal-noticias-node#readme"
+}
