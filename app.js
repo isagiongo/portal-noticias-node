@@ -1,23 +1,10 @@
-var express = require('express');
-var app = express();
+var app = require('./config/server');
 
-app.set('view engine', 'ejs');
+var rotaNoticias = require('./app/routes/noticias')(app);
 
-app.get('/', function (req, res) {
-    res.send("<html><body>Portal de notícias</body></html>");
-});
+var rotaHome = require('./app/routes/home')(app);
 
-app.get('/tecnologia', function (req, res) {
-    res.render("secao/tecnologia");
-});
-
-app.get('/moda', function (req, res) {
-    res.send("<html><body>Notícias de Moda</body></html>");
-});
-
-app.get('/esportes', function (req, res) {
-    res.send("<html><body>Notícias de Esportes</body></html>");
-});
+var rotaFormularioInclusao = require('./app/routes/formulario_inclusao_noticia')(app);
 
 app.listen(3000, function () {
     console.log("Servidor rodando com express")
