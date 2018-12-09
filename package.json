@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/isagiongo/portal-noticias-node/issues"
   },
-  "homepage": "https://github.com/isagiongo/portal-noticias-node#readme"
+  "homepage": "https://github.com/isagiongo/portal-noticias-node#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
 }
