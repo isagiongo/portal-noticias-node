@@ -16,4 +16,4 @@ var server = http.createServer(function (req, res) {
 server.listen(3000);
 
 
-console.log('Criando um site de noticias com Node.');
+console.log('Criando um site de noticias com Node TESTE.');
